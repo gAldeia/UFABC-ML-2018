@@ -45,7 +45,7 @@ def knn(xi, X, Y, k):
 
 def main():
     #leitura do arquivo e criacao do dataframe
-    iris_df = pd.read_csv("./data/Iris_Data.csv")
+    iris_df = pd.read_csv("../data/Iris_Data.csv")
 
     #separar features da classificacao
     X = iris_df.iloc[:, :4].values #transformar o df num array numpy para funcionar na metrica
